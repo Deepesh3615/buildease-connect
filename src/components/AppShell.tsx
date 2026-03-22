@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { useAuth } from "@/lib/auth-context";
 import { LanguageSelector } from "@/components/LanguageSelector";
-import { Home, Users, Wrench, CreditCard, Megaphone, UserCircle, Bell } from "lucide-react";
+import { Home, Users, Wrench, CreditCard, Megaphone, UserCircle, Bell, MessageCircle } from "lucide-react";
 import { DashboardPage } from "@/components/pages/DashboardPage";
 import { ResidentsPage } from "@/components/pages/ResidentsPage";
 import { RequestsPage } from "@/components/pages/RequestsPage";
 import { PaymentsPage } from "@/components/pages/PaymentsPage";
 import { NoticesPage } from "@/components/pages/NoticesPage";
 import { ProfilePage } from "@/components/pages/ProfilePage";
+import { ChatPage } from "@/components/pages/ChatPage";
 
-type Tab = "home" | "residents" | "requests" | "payments" | "notices" | "profile";
+type Tab = "home" | "residents" | "requests" | "payments" | "notices" | "chat" | "profile";
 
 const tabs: { key: Tab; icon: React.ElementType; labelKey: string }[] = [
   { key: "home", icon: Home, labelKey: "nav.home" },
