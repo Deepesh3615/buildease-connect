@@ -19,6 +19,7 @@ const tabs: { key: Tab; icon: React.ElementType; labelKey: string }[] = [
   { key: "requests", icon: Wrench, labelKey: "nav.requests" },
   { key: "payments", icon: CreditCard, labelKey: "nav.payments" },
   { key: "notices", icon: Megaphone, labelKey: "nav.notices" },
+  { key: "chat", icon: MessageCircle, labelKey: "nav.chat" },
   { key: "profile", icon: UserCircle, labelKey: "nav.profile" },
 ];
 
