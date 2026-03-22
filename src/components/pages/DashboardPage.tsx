@@ -9,7 +9,7 @@ const activities = [
   { key: "act3", textEn: "New notice posted: Water supply", textHi: "नई सूचना: पानी की आपूर्ति", textMr: "नवीन सूचना: पाणीपुरवठा", time: "1d ago" },
 ];
 
-export const DashboardPage: React.FC<{ onNavigate: (tab: string) => void }> = ({ onNavigate }) => {
+export const DashboardPage: React.FC<{ onNavigate: (tab: any) => void }> = ({ onNavigate }) => {
   const { t, language } = useI18n();
   const { user } = useAuth();
 
