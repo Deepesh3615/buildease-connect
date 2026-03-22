@@ -73,6 +73,13 @@ const translations: Record<string, Record<Language, string>> = {
   "profile.notifications": { en: "Notifications", hi: "सूचनाएं", mr: "सूचना" },
   "profile.logout": { en: "Logout", hi: "लॉग आउट", mr: "लॉग आउट" },
 
+  // Chat
+  "nav.chat": { en: "Chat", hi: "चैट", mr: "चॅट" },
+  "chat.title": { en: "Community Chat", hi: "सामुदायिक चैट", mr: "समुदाय चॅट" },
+  "chat.placeholder": { en: "Type a message...", hi: "संदेश लिखें...", mr: "संदेश टाइप करा..." },
+  "chat.send": { en: "Send", hi: "भेजें", mr: "पाठवा" },
+  "chat.pin": { en: "Pin Message", hi: "संदेश पिन करें", mr: "संदेश पिन करा" },
+
   // General
   "general.noData": { en: "No data yet", hi: "अभी कोई डेटा नहीं", mr: "अजून डेटा नाही" },
   "general.loading": { en: "Loading...", hi: "लोड हो रहा है...", mr: "लोड होत आहे..." },

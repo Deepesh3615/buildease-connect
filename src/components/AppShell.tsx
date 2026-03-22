@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { useAuth } from "@/lib/auth-context";
 import { LanguageSelector } from "@/components/LanguageSelector";
-import { Home, Users, Wrench, CreditCard, Megaphone, UserCircle, Bell } from "lucide-react";
+import { Home, Users, Wrench, CreditCard, Megaphone, UserCircle, Bell, MessageCircle } from "lucide-react";
 import { DashboardPage } from "@/components/pages/DashboardPage";
 import { ResidentsPage } from "@/components/pages/ResidentsPage";
 import { RequestsPage } from "@/components/pages/RequestsPage";
 import { PaymentsPage } from "@/components/pages/PaymentsPage";
 import { NoticesPage } from "@/components/pages/NoticesPage";
 import { ProfilePage } from "@/components/pages/ProfilePage";
+import { ChatPage } from "@/components/pages/ChatPage";
 
-type Tab = "home" | "residents" | "requests" | "payments" | "notices" | "profile";
+type Tab = "home" | "residents" | "requests" | "payments" | "notices" | "chat" | "profile";
 
 const tabs: { key: Tab; icon: React.ElementType; labelKey: string }[] = [
   { key: "home", icon: Home, labelKey: "nav.home" },
@@ -18,6 +19,7 @@ const tabs: { key: Tab; icon: React.ElementType; labelKey: string }[] = [
   { key: "requests", icon: Wrench, labelKey: "nav.requests" },
   { key: "payments", icon: CreditCard, labelKey: "nav.payments" },
   { key: "notices", icon: Megaphone, labelKey: "nav.notices" },
+  { key: "chat", icon: MessageCircle, labelKey: "nav.chat" },
   { key: "profile", icon: UserCircle, labelKey: "nav.profile" },
 ];
 
@@ -33,6 +35,7 @@ export const AppShell: React.FC = () => {
     requests: "requests.title",
     payments: "payments.title",
     notices: "notices.title",
+    chat: "chat.title",
     profile: "profile.title",
   };
 
@@ -43,6 +46,7 @@ export const AppShell: React.FC = () => {
       case "requests": return <RequestsPage />;
       case "payments": return <PaymentsPage />;
       case "notices": return <NoticesPage />;
+      case "chat": return <ChatPage />;
       case "profile": return <ProfilePage />;
     }
   };
