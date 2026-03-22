@@ -35,6 +35,7 @@ export const AppShell: React.FC = () => {
     requests: "requests.title",
     payments: "payments.title",
     notices: "notices.title",
+    chat: "chat.title",
     profile: "profile.title",
   };
 
