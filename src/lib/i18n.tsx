@@ -65,6 +65,30 @@ const translations: Record<string, Record<Language, string>> = {
   // Notices
   "notices.title": { en: "Notices", hi: "सूचनाएं", mr: "सूचना" },
   "notices.important": { en: "Important", hi: "महत्वपूर्ण", mr: "महत्त्वाचे" },
+  "notices.normal": { en: "Normal", hi: "सामान्य", mr: "सामान्य" },
+  "notices.critical": { en: "Critical", hi: "गंभीर", mr: "गंभीर" },
+  "notices.createNew": { en: "New Notice", hi: "नई सूचना", mr: "नवीन सूचना" },
+  "notices.noticeTitle": { en: "Title", hi: "शीर्षक", mr: "शीर्षक" },
+  "notices.noticeMessage": { en: "Message", hi: "संदेश", mr: "संदेश" },
+  "notices.noticeType": { en: "Notice Type", hi: "सूचना प्रकार", mr: "सूचना प्रकार" },
+  "notices.repeatUntilAck": { en: "Repeat until acknowledged", hi: "स्वीकार होने तक दोहराएं", mr: "मान्य होईपर्यंत पुनरावृत्ती" },
+  "notices.post": { en: "Post Notice", hi: "सूचना पोस्ट करें", mr: "सूचना पोस्ट करा" },
+  "notices.cancel": { en: "Cancel", hi: "रद्द करें", mr: "रद्द करा" },
+
+  // Alarm
+  "alarm.criticalNotice": { en: "Critical Alert", hi: "गंभीर चेतावनी", mr: "गंभीर इशारा" },
+  "alarm.stopAndRead": { en: "Stop Alarm & Read", hi: "अलार्म बंद करें और पढ़ें", mr: "अलार्म बंद करा आणि वाचा" },
+  "alarm.snooze": { en: "Snooze", hi: "स्नूज़", mr: "स्नूझ" },
+  "alarm.snoozeFor": { en: "Snooze for:", hi: "स्नूज़ करें:", mr: "स्नूझ करा:" },
+  "alarm.snooze15": { en: "15 min", hi: "15 मिनट", mr: "15 मिनिटे" },
+  "alarm.snooze30": { en: "30 min", hi: "30 मिनट", mr: "30 मिनिटे" },
+  "alarm.snooze60": { en: "1 hour", hi: "1 घंटा", mr: "1 तास" },
+  "alarm.postedBy": { en: "Posted by", hi: "द्वारा पोस्ट", mr: "यांनी पोस्ट केले" },
+
+  // Alarm Settings
+  "alarm.settings": { en: "Alarm Settings", hi: "अलार्म सेटिंग्स", mr: "अलार्म सेटिंग्ज" },
+  "alarm.sound": { en: "Alarm Sound", hi: "अलार्म ध्वनि", mr: "अलार्म आवाज" },
+  "alarm.vibration": { en: "Vibration", hi: "कंपन", mr: "कंपन" },
 
   // Profile
   "profile.title": { en: "Profile", hi: "प्रोफाइल", mr: "प्रोफाइल" },
