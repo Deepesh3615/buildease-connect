@@ -4,6 +4,7 @@ export type UserRole = "admin" | "resident" | "staff";
 
 export type User = {
   name: string;
+  username: string;
   email: string;
   phone: string;
   role: UserRole;
