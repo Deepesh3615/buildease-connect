@@ -46,6 +46,7 @@ export const AppShell: React.FC = () => {
       case "requests": return <RequestsPage />;
       case "payments": return <PaymentsPage />;
       case "notices": return <NoticesPage />;
+      case "chat": return <ChatPage />;
       case "profile": return <ProfilePage />;
     }
   };
